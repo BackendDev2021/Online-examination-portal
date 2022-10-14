@@ -1,0 +1,6 @@
+rootProject.name = 'online-exam-portal'
+include   ':online-portal-trainer-bean(1)'
+project(':online-portal-trainer-bean(1)').projectDir = new File(settingsDir, '../online-portal-trainer-bean(1)')
+//include   ':TrainerBean', ':TraineeBean'
+//project(':TrainerBean').projectDir = new File(settingsDir, '../TrainerBean')
+//project(':TraineeBean').projectDir = new File(settingsDir, '../TraineeBean')
